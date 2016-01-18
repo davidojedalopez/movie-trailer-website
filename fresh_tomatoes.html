@@ -1,0 +1,102 @@
+
+<head>
+    <meta charset="utf-8">
+    <title>Favorite Movies!</title>
+
+    <!-- Bootstrap 3 -->
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" type="text/css" href="css/movie.css">
+
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+    <script src="js/movies.js""></script>
+</head>
+
+<!DOCTYPE html>
+<html lang="en">
+  <body>
+    <!-- Trailer Video Modal -->
+    <div class="modal" id="trailer">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <a href="#" class="hanging-close" data-dismiss="modal" aria-hidden="true">
+            <img src="https://lh5.ggpht.com/v4-628SilF0HtHuHdu5EzxD7WRqOrrTIDi_MhEG6_qkNtUK5Wg7KPkofp_VJoF7RS2LhxwEFCO1ICHZlc-o_=s0#w=24&h=24"/>
+          </a>
+          <div class="scale-media" id="trailer-video-container">
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Main Page Content -->
+    <div class="container">
+      <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#">My Favorite Movies</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      
+<div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="KYz2wyBy3kc" data-toggle="modal" data-target="#trailer">
+    <img src="http://ia.media-imdb.com/images/M/MV5BMTgwMjI4MzU5N15BMl5BanBnXkFtZTcwMTMyNTk3OA@@._V1._SX100_SY133_.jpg" width="220" height="342">
+    <h1>Toy Story</h1>
+    <p>A cowboy doll is profoundly threatened and jealous when a new spaceman figure supplants him as top toy in a boy's room.</p>
+    <div class="star-ratings-css">
+        <div class="star-ratings-css-top" style="width: 83.0%">
+            <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+        </div>
+        <div class="star-ratings-css-bottom">
+            <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+        </div>
+    </div>
+</div>
+
+<div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="MsAniqGowKE" data-toggle="modal" data-target="#trailer">
+    <img src="http://ia.media-imdb.com/images/M/MV5BMTkxNDYxOTA4M15BMl5BanBnXkFtZTgwNTk0NzQxMTE@._V1._SX94_SY140_.jpg" width="220" height="342">
+    <h1>The Matrix</h1>
+    <p>A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.</p>
+    <div class="star-ratings-css">
+        <div class="star-ratings-css-top" style="width: 87.0%">
+            <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+        </div>
+        <div class="star-ratings-css-bottom">
+            <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+        </div>
+    </div>
+</div>
+
+<div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="ByXuk9QqQkk" data-toggle="modal" data-target="#trailer">
+    <img src="http://ia.media-imdb.com/images/M/MV5BMjYxMDcyMzIzNl5BMl5BanBnXkFtZTYwNDg2MDU3._V1._SX99_SY140_.jpg" width="220" height="342">
+    <h1>Sen to Chihiro no Kamikakushi</h1>
+    <p>During her family's move to the suburbs, a sullen 10-year-old girl wanders into a world ruled by gods, witches, and spirits, and where humans are changed into beasts.</p>
+    <div class="star-ratings-css">
+        <div class="star-ratings-css-top" style="width: 86.0%">
+            <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+        </div>
+        <div class="star-ratings-css-bottom">
+            <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+        </div>
+    </div>
+</div>
+
+<div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="qvsgGtivCgs" data-toggle="modal" data-target="#trailer">
+    <img src="http://ia.media-imdb.com/images/M/MV5BMjA5NTYzMDMyM15BMl5BanBnXkFtZTgwNjU3NDU2MTE@._V1._SX90_SY140_.jpg" width="220" height="342">
+    <h1>Back to the Future</h1>
+    <p>A young man is accidentally sent 30 years into the past in a time-traveling DeLorean invented by his friend, Dr. Emmett Brown, and must make sure his high-school-age parents unite in order to save his own existence.</p>
+    <div class="star-ratings-css">
+        <div class="star-ratings-css-top" style="width: 85.0%">
+            <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+        </div>
+        <div class="star-ratings-css-bottom">
+            <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+        </div>
+    </div>
+</div>
+
+    </div>
+  </body>
+</html>
