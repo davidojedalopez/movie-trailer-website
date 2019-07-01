@@ -12,7 +12,7 @@ Server-side code to store a list of movie titles, box art, poster images and mov
 |------|-------------|
 | movies.py | Contains the Movie Class |
 | movie_center.py | Main file. Manages the search and adding of movies |
-| fresh_tomatoes.py | HTML template and render methos for movie website |
+| fresh_tomatoes.py | HTML template and render methods for movie website |
 | fresh_tomatoes.html | HTML output example |
 | movies.css | CSS for the movie website |
 | movies.js | JS for the movie website |
